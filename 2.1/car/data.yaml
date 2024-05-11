@@ -1,0 +1,13 @@
+train: /home/vladislave/coding/ii/2.1/car/train/images
+val: /home/vladislave/coding/ii/2.1/car/valid/images
+test: /home/vladislave/coding/ii/2.1/car/test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: fyp1-dccsw
+  project: car-detection-kgyt7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fyp1-dccsw/car-detection-kgyt7/dataset/1

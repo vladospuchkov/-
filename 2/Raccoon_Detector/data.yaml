@@ -1,0 +1,13 @@
+train: /home/vladislave/coding/ii/2/Raccoon_Detector/train/images
+val: /home/vladislave/coding/ii/2/Raccoon_Detector/valid/images
+test: /home/vladislave/coding/ii/2/Raccoon_Detector/test/images
+
+nc: 1
+names: ['raccoon']
+
+roboflow:
+  workspace: fau-smart-streetscapes
+  project: raccoon-detector-z2hsv
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fau-smart-streetscapes/raccoon-detector-z2hsv/dataset/3
